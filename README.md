@@ -94,7 +94,6 @@ __Reboot__ :
 __Exit__ :
 - From this option you can exit from m-wiz tool 
 
-__Metasploit install__ :
 ## 📌 ***Screenshot*** :
 <img src="https://user-images.githubusercontent.com/49580304/60384459-80060f80-9a9b-11e9-807e-ba9f51d2a48f.jpg" width="80%"></img>
 <img src="https://user-images.githubusercontent.com/49580304/60384482-eab74b00-9a9b-11e9-8371-3e7c9a17aae1.jpg" width="80%"></img>
