@@ -83,12 +83,12 @@ Note:- Don't delete any of the audio files from your sdcard/internal storage or 
 # 📌 ***More***:
 
 - __Metasploit install__ :
-* Note:- Don't delete any of the audio files from your sdcard/internal storage or else you cannot feel the terminal startup sound
+- Note:- Don't delete any of the audio files from your sdcard/internal storage or else you cannot feel the terminal startup sound
 Note:- Don't delete any of the audio files from your sdcard/internal storage or else you cannot feel the terminal startup sound
 Note:- Don't delete any of the audio files from your sdcard/internal storage or else you cannot feel the terminal startup sound
 
 - __Metasploit repair__ :
-* Note:- Don't delete any of the audio files from your sdcard/internal storage or else you cannot feel the terminal startup sound
+- Note:- Don't delete any of the audio files from your sdcard/internal storage or else you cannot feel the terminal startup sound
 Note:- Don't delete any of the audio files from your sdcard/internal storage or else you cannot feel the terminal startup sound
 Note:- Don't delete any of the audio files from your sdcard/internal storage or else you cannot feel the terminal startup sound
 
