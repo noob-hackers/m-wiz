@@ -1,23 +1,23 @@
-<h1 align="center">T-LOAD v1.0</h1>
+<h1 align="center">m-wiz v1.0</h1>
 <p align="center">
-      New advanced terminal for Termux users with simple steps
+      A new automated script for metasloit users
 </p>
 
-## 🔍 ***About T-LOAD***:
+## 🔍 ***About m-wiz***:
 
-T-LOAD is a bash based script which modifies and changes your terminal from boring to awesome in just oneclick without any issue and without root. This tool works on both rooted Android device and Non-rooted Android device.
+m-wiz is a bash based script which is oficially made for metasploit-framework users of termux from this tool in just one click you can install metasploit, repair it, update it, and backup up it and lot more. This tool works on both rooted Android device and Non-rooted Android device.
 
-[![Build Status](https://img.shields.io/github/stars/noob-hackers/T-LOAD.svg)](https://github.com/noob-hackers/T-LOAD)
-[![Build Status](https://img.shields.io/github/forks/noob-hackers/T-LOAD.svg)](https://github.com/noob-hackers/T-LOAD)
-[![License: MIT](https://img.shields.io/github/license/noob-hackers/T-LOAD.svg)](https://github.com/noob-hackers/T-LOAD)
-[![Rawsec's CyberSecurity Inventory](https://inventory.rawsec.ml/img/badges/Rawsec-inventoried-FF5050_flat.svg)](https://inventory.rawsec.ml/tools.html#T-LOAD)
+[![Build Status](https://img.shields.io/github/stars/noob-hackers/m-wiz.svg)](https://github.com/noob-hackers/m-wiz)
+[![Build Status](https://img.shields.io/github/forks/noob-hackers/m-wiz.svg)](https://github.com/noob-hackers/m-wiz)
+[![License: MIT](https://img.shields.io/github/license/noob-hackers/m-wiz.svg)](https://github.com/noob-hackers/m-wiz)
+[![Rawsec's CyberSecurity Inventory](https://inventory.rawsec.ml/img/badges/Rawsec-inventoried-FF5050_flat.svg)](https://inventory.rawsec.ml/tools.html#m-wiz)
 [![Stage](https://img.shields.io/badge/Release-Stable-brightgreen.svg)]()
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 ![photo_2019-06-29_15-32-01](https://user-images.githubusercontent.com/49580304/60383963-159ea080-9a96-11e9-92e5-7242247482fa.jpg)
 
 
-### 📌 ***T-LOAD is available for***:
+### 📌 ***m-wiz is available for***:
 
 * Termux
 
@@ -38,62 +38,63 @@ $ pkg install python2 -y
 $ pkg install git -y
 ```
 ```
-$ pip install requests
+$ pip install lolcat
 ```
 ```
-$ pip install random
-```
-```
-$ ls
-```
-```
-$ git clone https://github.com/noob-hackers/lazybee
+$ git clone https://github.com/noob-hackers/m-wiz
 ```
 ```
 $ ls
 ```
 ```
-$ cd lazybee
+$ cd m-wiz
 ```
 ```
 $ ls
 ```
 ```
-$ python2 lazybee.py
-```
-* ex:- Enter the number of characters: 8
-
-Name your wordlist wit (.txt) extensions: pass.txt
-
-WOW... you just created wordlist in hackers way.
+$ bash m-wiz.sh
 ```
 ```
-* Now make sue that you internet connection is on and after that the installation starts automatically
+* Now you need internet connection to continue further process...
 ```
+* You can select any option by clicking on your keyboard
 ```
-* After the installation successfully completes you will see a THANKS text on screen after that a new text appears 
+* Note:- Don't delete any of the scripts incuded in core files
 ```
-```
-* EXIT FROM TERMUX AFTER 5 SECONDS AND RE-OPEN IT after seeing this just exit from termux and re open it 
-```
-```
-Now you can see a new loading screen of termux and you can feel real hacking terminal Sound+New interface with banner. 
-```
-```
-* Note:- Don't delete any of the audio files from your sdcard/internal storage or else you cannot feel the terminal startup sound
-
 # 🛡 ***More***:
 
 __Metasploit install__ :
-- Note:- Don't delete any of the audio files from your sdcard/internal storage or else you cannot feel the terminal startup sound
-Note:- Don't delete any of the audio files from your sdcard/internal storage or else you cannot feel the terminal startup sound
-Note:- Don't delete any of the audio files from your sdcard/internal storage or else you cannot feel the terminal startup sound
+- From this option you can install metasploit-framework in termux application without any issue in just one click and the installation can take time upto 30 minutes.
 
 __Metasploit repair__ :
-- Note:- Don't delete any of the audio files from your sdcard/internal storage or else you cannot feel the terminal startup sound
-Note:- Don't delete any of the audio files from your sdcard/internal storage or else you cannot feel the terminal startup sound
-Note:- Don't delete any of the audio files from your sdcard/internal storage or else you cannot feel the terminal startup sound
+- From this option you can repair metasploit-framework if it's not working properly in termux application.
 
+__Metasploit backup__ :
+- From this option you can backup your metasploit-framework into your device internal storage without any issue without losing ay data.
+
+__Metasploit restore__ :
+- From this option you can restore your backed up metasploit-framework from your internal storage.
+
+__Metasploit delete__ :
+- From this tool you can delete your old metasploit-framework from your termux application easyli.
+
+__Delete script__ :
+- From this option you can delete m-wiz tool from your termux in one click.
+
+__Update script__ :
+- From this option you can update m-wiz tool if updates are available for that.
+
+__About__ :
+- From this option you can read about author.
+
+__Reboot__ :
+- From this option you can restart script if you are facing issues.
+
+__Exit__ :
+- From this option you can exit from m-wiz tool 
+
+__Metasploit install__ :
 ## 📌 ***Screenshot*** :
 <img src="https://user-images.githubusercontent.com/49580304/60384459-80060f80-9a9b-11e9-807e-ba9f51d2a48f.jpg" width="80%"></img>
 <img src="https://user-images.githubusercontent.com/49580304/60384482-eab74b00-9a9b-11e9-8371-3e7c9a17aae1.jpg" width="80%"></img>
