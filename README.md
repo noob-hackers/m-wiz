@@ -1,0 +1,2 @@
+# m-wiz
+simple tool
