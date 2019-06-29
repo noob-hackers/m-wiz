@@ -80,14 +80,14 @@ Now you can see a new loading screen of termux and you can feel real hacking ter
 ```
 Note:- Don't delete any of the audio files from your sdcard/internal storage or else you cannot feel the terminal startup sound
 
-# 📌 ***More***:
+# 🛡 ***More***:
 
-- __Metasploit install__ :
+__Metasploit install__ :
 - Note:- Don't delete any of the audio files from your sdcard/internal storage or else you cannot feel the terminal startup sound
 Note:- Don't delete any of the audio files from your sdcard/internal storage or else you cannot feel the terminal startup sound
 Note:- Don't delete any of the audio files from your sdcard/internal storage or else you cannot feel the terminal startup sound
 
-- __Metasploit repair__ :
+__Metasploit repair__ :
 - Note:- Don't delete any of the audio files from your sdcard/internal storage or else you cannot feel the terminal startup sound
 Note:- Don't delete any of the audio files from your sdcard/internal storage or else you cannot feel the terminal startup sound
 Note:- Don't delete any of the audio files from your sdcard/internal storage or else you cannot feel the terminal startup sound
