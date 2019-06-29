@@ -60,7 +60,7 @@ $ bash m-wiz.sh
 
 * You can select any option by clicking on your keyboard
 
-* Note:- Don't delete any of the scripts incuded in core files
+* Note:- Don't delete any of the scripts included in core files
 
 # 🛡 ***More***:
 
