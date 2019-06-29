@@ -11,11 +11,11 @@ T-LOAD is a bash based script which modifies and changes your terminal from bori
 [![Build Status](https://img.shields.io/github/forks/noob-hackers/T-LOAD.svg)](https://github.com/noob-hackers/T-LOAD)
 [![License: MIT](https://img.shields.io/github/license/noob-hackers/T-LOAD.svg)](https://github.com/noob-hackers/T-LOAD)
 [![Rawsec's CyberSecurity Inventory](https://inventory.rawsec.ml/img/badges/Rawsec-inventoried-FF5050_flat.svg)](https://inventory.rawsec.ml/tools.html#T-LOAD)
-[![Version](https://img.shields.io/github/stars/noob-hackers/T-LOAD.svg?maxAge=259200)]()
-[![Bash](https://img.shields.io/github/stars/noob-hackers/T-LOAD.svg)]()
-[![Stage](https://img.shields.io/github/stars/noob-hackers/T-LOAD.svg)]()
-[![Build](https://img.shields.io/badge/Supported_OS-Termux.svg)]()
-[![Cool](https://cool.re/badge.svg)](https://cool.re)
+[![Version](https://img.shields.io/badge/Optiva-Frameworkv1.0.4-brightgreen.svg?maxAge=259200)]()
+[![Python 2.x](https://img.shields.io/badge/python-2.x-blue.svg)]()
+[![Stage](https://img.shields.io/badge/Release-Stable-brightgreen.svg)]()
+[![Build](https://img.shields.io/badge/Supported_OS-Ubuntu,Kali,Arch,Parrot-blue,Windows,Android.svg)]()
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
 ### T-LOAD is available for
