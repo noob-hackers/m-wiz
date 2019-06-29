@@ -21,7 +21,7 @@ T-LOAD is a bash based script which modifies and changes your terminal from bori
 
 * Termux
 
-### ***Installation and usage guide***:
+### 📌 ***Installation and usage guide***:
 ```
 $ apt-get update -y
 ```
