@@ -71,7 +71,7 @@ __Metasploit repair__ :
 - From this option you can repair metasploit-framework if it's not working properly in termux application.
 
 __Metasploit backup__ :
-- From this option you can backup your metasploit-framework into your device internal storage without any issue without losing ay data.
+- From this option you can backup your metasploit-framework into your device internal storage without any issue without losing any data.
 
 __Metasploit restore__ :
 - From this option you can restore your backed up metasploit-framework from your internal storage.
