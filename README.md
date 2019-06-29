@@ -21,29 +21,49 @@ T-LOAD is a bash based script which modifies and changes your terminal from bori
 
 ### ***Installation and usage guide***:
 ```
-```
 $ apt-get update -y
 ```
 ```
 $ apt-get upgrade -y
 ```
 ```
+$ pkg install python -y 
+```
+```
+$ pkg install python2 -y
+```
+```
 $ pkg install git -y
 ```
 ```
-$ git clone https://github.com/noob-hackers/T-LOAD
+$ pip install requests
+```
+```
+$ pip install random
 ```
 ```
 $ ls
 ```
 ```
-$ cd T-LOAD
+$ git clone https://github.com/noob-hackers/lazybee
 ```
 ```
 $ ls
 ```
 ```
-$ bash t-load.sh
+$ cd lazybee
+```
+```
+$ ls
+```
+```
+$ python2 lazybee.py
+```
+ex:- Enter the number of characters: 8
+
+Name your wordlist wit (.txt) extensions: pass.txt
+
+WOW... you just created wordlist in hackers way.
 ```
 ```
 * Now make sue that you internet connection is on and after that the installation starts automatically
