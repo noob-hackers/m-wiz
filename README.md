@@ -67,7 +67,7 @@ Note:- Don't delete any of the audio files from your sdcard/internal storage or 
 ## 📌 ***Full video tutorial***:
 [![ Optiva-Framework - Web Application Scanner ](https://i.ytimg.com/vi/eF11o6yLlv8/hqdefault.jpg)](https://www.youtube.com/watch?v=eF11o6yLlv8&t=31s)
 
-## 🔗 ***JOIN*** :
+## 🔗 ***Check this*** :
 
 ### 📌 Subscribe our channel on youtube
 https://www.youtube.com/noobhackers
@@ -75,8 +75,29 @@ https://www.youtube.com/noobhackers
 ### 📌 Chekout our webite 
 https://www.noob-hackers.com
 
+## 👥 ***Join***:
 
-     
+### Facebook group: 
+https://www.facebook.com/groups/1936478173310085
+
+### Quora:
+https://www.quora.com/profile/Noob-Hackers
+
+### Telegram channel:
+https://t.me/noobhack
+
+### Facebook page:
+https://www.facebook.com/Noob-Hackers-250938565573643
+
+### Instagram: 
+https://www.instagram.com/noobhackers352
+
+### Pinterest:
+https://in.pinterest.com/noobhackers
+
+### My GitHub ID link:
+https://www.github.com/noob-hackers
+
 ### 📌 Warning
 
 ***This tool is only for educational purpose. If you use this tool for other purposes except education we will not be responsible in such cases.***
