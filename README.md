@@ -98,7 +98,7 @@ Note:- Don't delete any of the audio files from your sdcard/internal storage or 
 <img src="![photo_2019-06-29_17-56-11](https://user-images.githubusercontent.com/49580304/60384345-16d1cc80-9a9a-11e9-806a-35227a6ec4cc.jpg)
 
 " width="80%">
-<img src="https://lh3.googleusercontent.com/-7qmpZoTTapI/XRdZ4N2h3UI/AAAAAAAAAcM/SnClGYhW_OIkW3YCdGUkZwtusUoocfRzwCEwYBhgL/w140-h90-p/photo_2019-06-29_17-56-11.jpg" width="80%"></img>
+<img src="https://user-images.githubusercontent.com/49580304/60384405-c9a22a80-9a9a-11e9-9a49-964afba5fed6.jpg" width="80%"></img>
 
 ## 📌 ***Full video tutorial***:
 [![ Optiva-Framework - Web Application Scanner ](https://i.ytimg.com/vi/eF11o6yLlv8/hqdefault.jpg)](https://www.youtube.com/watch?v=eF11o6yLlv8&t=31s)
