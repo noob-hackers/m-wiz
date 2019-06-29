@@ -95,7 +95,7 @@ Note:- Don't delete any of the audio files from your sdcard/internal storage or 
 Note:- Don't delete any of the audio files from your sdcard/internal storage or else you cannot feel the terminal startup sound
 
 ## 📌 ***Screenshot*** :
-<img src="https://lh3.googleusercontent.com/-ZvMRiOV6Oho/XRdZ4C9MbeI/AAAAAAAAAcQ/riN7IJvwDWUaVwzNypo_9Apbe6KirxAvQCEwYBhgL/w140-h79-p/photo_2019-06-29_17-55-49.jpg" width="800%">
+<img src="https://lh3.googleusercontent.com/-ZvMRiOV6Oho/XRdZ4C9MbeI/AAAAAAAAAcQ/riN7IJvwDWUaVwzNypo_9Apbe6KirxAvQCEwYBhgL/w140-h79-p/photo_2019-06-29_17-55-49.jpg" width="80%">
 <img src="https://lh3.googleusercontent.com/-7qmpZoTTapI/XRdZ4N2h3UI/AAAAAAAAAcM/SnClGYhW_OIkW3YCdGUkZwtusUoocfRzwCEwYBhgL/w140-h90-p/photo_2019-06-29_17-56-11.jpg" width="80%"></img>
 
 ## 📌 ***Full video tutorial***:
