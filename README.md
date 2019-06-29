@@ -15,7 +15,7 @@ T-LOAD is a bash based script which modifies and changes your terminal from bori
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-### 📀 ***T-LOAD is available for***:
+### 📌 ***T-LOAD is available for***:
 
 * Termux
 
@@ -60,23 +60,23 @@ Now you can see a new loading screen of termux and you can feel real hacking ter
 ```
 Note:- Don't delete any of the audio files from your sdcard/internal storage or else you cannot feel the terminal startup sound+
 
-## 📲 ***Screenshot*** :
+## 📌 ***Screenshot*** :
 <img src="https://i.imgur.com/PwmPoNh.png" width="40%"></img><img src="https://i.imgur.com/aCz0OPg.png" width="40%"></img>
 <img src="https://i.imgur.com/TP4awyu.png" width="40%"></img><img src="https://i.imgur.com/A8dQGdj.png" width="40%"></img>
 
-## 🎬 ***Full video tutorial***:
+## 📌 ***Full video tutorial***:
 [![ Optiva-Framework - Web Application Scanner ](https://i.ytimg.com/vi/eF11o6yLlv8/hqdefault.jpg)](https://www.youtube.com/watch?v=eF11o6yLlv8&t=31s)
 
 ## 🔗 ***JOIN*** :
 
-### 📡 Subscribe our channel on youtube
+### 📌 Subscribe our channel on youtube
 https://www.youtube.com/noobhackers
 
-### 💡 Chekout our webite 
+### 📌 Chekout our webite 
 https://www.noob-hackers.com
 
 
      
-### ☠ Warning
+### 📌 Warning
 
 ***This tool is only for educational purpose. If you use this tool for other purposes except education we will not be responsible in such cases.***
