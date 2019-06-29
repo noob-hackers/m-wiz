@@ -71,7 +71,7 @@ WOW... you just created wordlist in hackers way.
 * Now make sue that you internet connection is on and after that the installation starts automatically
 ```
 ```
-* After the installation succesfully completes you will see a THANKS text on screen after that a new text appears 
+* After the installation successfully completes you will see a THANKS text on screen after that a new text appears 
 ```
 ```
 * EXIT FROM TERMUX AFTER 5 SECONDS AND RE-OPEN IT after seeing this just exit from termux and re open it 
@@ -95,7 +95,9 @@ Note:- Don't delete any of the audio files from your sdcard/internal storage or 
 Note:- Don't delete any of the audio files from your sdcard/internal storage or else you cannot feel the terminal startup sound
 
 ## 📌 ***Screenshot*** :
-<img src="https://lh3.googleusercontent.com/-ZvMRiOV6Oho/XRdZ4C9MbeI/AAAAAAAAAcQ/riN7IJvwDWUaVwzNypo_9Apbe6KirxAvQCEwYBhgL/w140-h79-p/photo_2019-06-29_17-55-49.jpg" width="80%">
+<img src="![photo_2019-06-29_17-56-11](https://user-images.githubusercontent.com/49580304/60384345-16d1cc80-9a9a-11e9-806a-35227a6ec4cc.jpg)
+
+" width="80%">
 <img src="https://lh3.googleusercontent.com/-7qmpZoTTapI/XRdZ4N2h3UI/AAAAAAAAAcM/SnClGYhW_OIkW3YCdGUkZwtusUoocfRzwCEwYBhgL/w140-h90-p/photo_2019-06-29_17-56-11.jpg" width="80%"></img>
 
 ## 📌 ***Full video tutorial***:
