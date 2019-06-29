@@ -103,10 +103,10 @@ __Exit__ :
 
 ## 🔗 ***Check this***
 
-### 📌 Subscribe our channel on youtube:
+### Subscribe our channel on youtube:
 https://www.youtube.com/noobhackers
 
-### 📌 Chekout our webite:
+### Chekout our webite:
 https://www.noob-hackers.com
 
 ## 👥 ***Join***
