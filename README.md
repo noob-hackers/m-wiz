@@ -95,8 +95,8 @@ Note:- Don't delete any of the audio files from your sdcard/internal storage or 
 Note:- Don't delete any of the audio files from your sdcard/internal storage or else you cannot feel the terminal startup sound
 
 ## 📌 ***Screenshot*** :
-<img src=" " width="80%"></img>
-<img src=" " width="80%"></img>
+<img src="https://user-images.githubusercontent.com/49580304/60384459-80060f80-9a9b-11e9-807e-ba9f51d2a48f.jpg" width="80%"></img>
+<img src="https://user-images.githubusercontent.com/49580304/60384464-914f1c00-9a9b-11e9-97ec-974e03c39ccc.jpg" width="80%"></img>
 
 ## 📌 ***Full video tutorial***:
 [![ Optiva-Framework - Web Application Scanner ](https://i.ytimg.com/vi/eF11o6yLlv8/hqdefault.jpg)](https://www.youtube.com/watch?v=eF11o6yLlv8&t=31s)
