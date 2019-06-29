@@ -78,7 +78,19 @@ WOW... you just created wordlist in hackers way.
 Now you can see a new loading screen of termux and you can feel real hacking terminal Sound+New interface with banner. 
 ```
 ```
-Note:- Don't delete any of the audio files from your sdcard/internal storage or else you cannot feel the terminal startup sound+
+Note:- Don't delete any of the audio files from your sdcard/internal storage or else you cannot feel the terminal startup sound
+
+# 📌 ***More***:
+
+- __Metasploit install__ :
+* Note:- Don't delete any of the audio files from your sdcard/internal storage or else you cannot feel the terminal startup sound
+Note:- Don't delete any of the audio files from your sdcard/internal storage or else you cannot feel the terminal startup sound
+Note:- Don't delete any of the audio files from your sdcard/internal storage or else you cannot feel the terminal startup sound
+
+- __Metasploit repair__ :
+* Note:- Don't delete any of the audio files from your sdcard/internal storage or else you cannot feel the terminal startup sound
+Note:- Don't delete any of the audio files from your sdcard/internal storage or else you cannot feel the terminal startup sound
+Note:- Don't delete any of the audio files from your sdcard/internal storage or else you cannot feel the terminal startup sound
 
 ## 📌 ***Screenshot*** :
 <img src="https://i.imgur.com/PwmPoNh.png" width="40%"></img><img src="https://i.imgur.com/aCz0OPg.png" width="40%"></img>
