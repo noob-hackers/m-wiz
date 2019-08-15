@@ -113,9 +113,6 @@ https://www.noob-hackers.com
 ### Facebook group: 
 https://www.facebook.com/groups/1936478173310085
 
-### Quora:
-https://www.quora.com/profile/Noob-Hackers
-
 ### Telegram channel:
 https://t.me/noobhack
 
