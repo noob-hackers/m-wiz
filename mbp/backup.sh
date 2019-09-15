@@ -60,7 +60,7 @@ mkdir mbackup
 cd $HOME
 cd metasploit-framework
 rm bcp.sh 
-git clone https://github.com/noob-hackers/bcp.sh
+git clone https://github.com/noob-hackers/bcp
 cd $HOME
 termux-setup-storage
 cp -r metasploit-framework mbackup
