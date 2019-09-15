@@ -20,7 +20,7 @@ cd opt
 mv metasploit-framework $HOME
 cd $HOME
 cd metasploit-framework
-git clone https://github.com/noob-hackers/bcp.sh
+git clone https://github.com/noob-hackers/bcp
 wget https://github.com/termux/termux-packages/files/2912002/fix-ruby-bigdecimal.sh.txt
 bash fix-ruby-bigdecimal.sh.txt
 echo " "
