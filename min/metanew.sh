@@ -5,6 +5,7 @@ apt-get upgrade -y
 pkg install python2 -y
 pkg install python -y
 pip install lolcat
+pip install --upgrade pip
 clear
 termux-setup-storage
 echo " " 
