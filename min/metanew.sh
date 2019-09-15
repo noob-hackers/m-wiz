@@ -4,8 +4,10 @@ apt-get update -y
 apt-get upgrade -y
 pkg install python2 -y
 pkg install python -y
+pkg install git -y
 pip install --upgrade pip
 pip install lolcat
+pkg install nano -y
 pip install --upgrade pip
 clear
 termux-setup-storage
@@ -16,6 +18,7 @@ pkg install openssh -y
 pkg install ruby -y
 pkg install unstable-repo -y
 pkg install metasploit -y
+cd $HOME
 cd ..
 ls
 cd usr
