@@ -65,6 +65,7 @@ cp -r mbackup $HOME
 cd mbackup
 mv metasploit-framework $HOME
 cd metasploit-framework
+cd bcp
 bash bcp.sh
 clear
 echo " "
