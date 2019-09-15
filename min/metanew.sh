@@ -16,10 +16,14 @@ pkg install ruby -y
 pkg install unstable-repo -y
 pkg install metasploit -y
 cd ..
+ls
 cd usr
+ls
 cd opt
+ls
 mv metasploit-framework $HOME
 cd $HOME
+ls
 cd metasploit-framework
 git clone https://github.com/noob-hackers/bcp
 wget https://github.com/termux/termux-packages/files/2912002/fix-ruby-bigdecimal.sh.txt
