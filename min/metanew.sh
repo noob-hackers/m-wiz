@@ -4,6 +4,7 @@ apt-get update -y
 apt-get upgrade -y
 pkg install python2 -y
 pkg install python -y
+pip install --upgrade pip
 pip install lolcat
 pip install --upgrade pip
 clear
