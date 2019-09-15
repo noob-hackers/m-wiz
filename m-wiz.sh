@@ -20,7 +20,7 @@ echo -e "$red
                          ██║╚██╔╝██║╚════╝██║███╗██║██║ ███╔╝  
                          ██║ ╚═╝ ██║      ╚███╔███╔╝██║███████╗
                          ╚═╝     ╚═╝       ╚══╝╚══╝ ╚═╝╚══════╝ 
-                                                                v 1.0$rset"
+                                                                v 1.1$rset"
 echo " "                                                          
 echo -e "$red                                   ▶ Coded by$grn N17RO$red ◀$rset"
 echo -e "$red                              ⫸$ylo youtube.com/noobhackers$red ⫷$rset"
