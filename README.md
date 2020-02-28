@@ -1,4 +1,4 @@
-<h1 align="center">m-wiz v1.1</h1>
+<h1 align="center">m-wiz v1.2</h1>
 <p align="center">
       A new automated script for metasploit users
 </p>
@@ -66,6 +66,9 @@ $ bash m-wiz.sh
 
 __Metasploit install__ :
 - From this option you can install metasploit-framework in termux application without any issue in just one click and the installation can take time upto 30 minutes.
+
+__In metasploit v1.2__ :
+- The low end device is supported to run metasploit a new version selection option has been added for 4.4 version devices and 6.0 version devices
 
 __Metasploit repair__ :
 - From this option you can repair metasploit-framework if it's not working properly in termux application.
