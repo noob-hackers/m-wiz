@@ -27,7 +27,7 @@ cd opt
 cd metasploit-framework
 git clone https://github.com/noob-hackers/bcp
 echo " "
-echo "       <############# Completed #############> "
+echo "       <############# Completed #############>"|lolcat
 echo " "
 echo "          If You Are Connected To Internet Then
         you have downloaded metasploit successfully.
@@ -53,15 +53,15 @@ echo '
 echo " "
 echo " Type msfconsole to start msfconsole...or wait lazy boyyy...."
 echo " "
-sleep 1.0
+sleep 5.0
 echo ""
 echo "            <<<< Data base server is starting >>>>"|lolcat
 echo " "
 pg_ctl -D $PREFIX/var/lib/postgresql start
-sleep 1.0
+sleep 3.0
 echo " "
 echo "         <<<< Successfully server has been started>>>>"|lolcat
 echo " "
-sleep 1.0
+sleep 2.0
 clear
 msfconsole
