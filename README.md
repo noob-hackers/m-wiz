@@ -1,136 +1,134 @@
-<h1 align="center">m-wiz v1.2</h1>
 <p align="center">
-      A new automated script for metasploit users
+<a href="https://bit.ly/3jLqF1P"><img title="Made in INDIA" src="https://img.shields.io/badge/MADE%20IN-INDIA-SCRIPT?colorA=%23ff8100&colorB=%23017e40&colorC=%23ff0000&style=for-the-badge"></a>
+</p>
+<p align="center">
+<a href="https://bit.ly/3jLqF1P"><img title="Made in INDIA" src="https://img.shields.io/badge/Tool-Mwiz-green.svg"></a>
+<a href="https://bit.ly/3jLqF1P"><img title="Version" src="https://img.shields.io/badge/Version-1.2-green.svg?style=flat-square"></a>
+<a href="https://bit.ly/3jLqF1P"><img title="Maintainence" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>
+</p>
+<p align="center">
+<a href="https://bit.ly/3jLqF1P"><img title="M-wiz" src="https://user-images.githubusercontent.com/49580304/96562383-911cf600-1275-11eb-9292-0a6f697d1fd6.jpg"></a>
+</p>
+<p align="center">
+<a href="https://github.com/noob-hackers"><img title="Github" src="https://img.shields.io/badge/noob-hackers-brightgreen?style=for-the-badge&logo=github"></a>
+<a href="https://rebrand.ly/noobhackers"><img title="YouTube" src="https://img.shields.io/badge/YouTube-Noob Hackers-red?style=for-the-badge&logo=Youtube"></a>
+</p>
+<p align="center">
+<a href="https://github.com/noob-hackers"><img title="Language" src="https://img.shields.io/badge/Made%20with-Bash-1f425f.svg?v=103"></a>
+<a href="https://github.com/noob-hackers"><img title="Followers" src="https://img.shields.io/github/followers/noob-hackers?color=blue&style=flat-square"></a>
+<a href="https://github.com/noob-hackers"><img title="Stars" src="https://img.shields.io/github/stars/noob-hackers/m-wiz?color=red&style=flat-square"></a>
+<a href="https://github.com/noob-hackers"><img title="Forks" src="https://img.shields.io/github/forks/noob-hackers/m-wiz?color=red&style=flat-square"></a>
+<a href="https://github.com/noob-hackers"><img title="Watching" src="https://img.shields.io/github/watchers/noob-hackers/m-wiz?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/noob-hackers"><img title="Licence" src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
 </p>
 
-## 🔍 ***About m-wiz***:
+## ABOUT TOOL :
 
-m-wiz is a bash based script which is officially made for metasploit-framework users of termux from this tool in just one click you can install metasploit, repair it, update it, and backup up it and lot more. This tool works on both rooted Android device and Non-rooted Android device.
+M-wiz is a bash based script which is officially made for metasploit-framework users of termux from this tool in just one click you can install metasploit, repair it, update it, and backup up it and lot more. This tool works on both rooted Android device and Non-rooted Android device.
 
-[![Build Status](https://img.shields.io/github/stars/noob-hackers/m-wiz.svg)](https://github.com/noob-hackers/m-wiz)
-[![Build Status](https://img.shields.io/github/forks/noob-hackers/m-wiz.svg)](https://github.com/noob-hackers/m-wiz)
-[![License: MIT](https://img.shields.io/github/license/noob-hackers/m-wiz.svg)](https://github.com/noob-hackers/m-wiz)
-[![Rawsec's CyberSecurity Inventory](https://inventory.rawsec.ml/img/badges/Rawsec-inventoried-FF5050_flat.svg)](https://inventory.rawsec.ml/tools.html#m-wiz)
-[![Stage](https://img.shields.io/badge/Release-Stable-brightgreen.svg)]()
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-
-![photo_2019-06-29_15-32-01](https://user-images.githubusercontent.com/49580304/60383963-159ea080-9a96-11e9-92e5-7242247482fa.jpg)
-
-
-### 📌 ***m-wiz is available for***:
+## AVAILABLE ON :
 
 * Termux
 
-### 📌 ***Installation and usage guide***:
-```
-$ apt-get update -y
-```
-```
-$ apt-get upgrade -y
-```
-```
-$ pkg install python -y 
-```
-```
-$ pkg install python2 -y
-```
-```
-$ pkg install git -y
-```
-```
-$ pip install lolcat
-```
-```
-$ git clone https://github.com/noob-hackers/m-wiz
-```
-```
-$ ls
-```
-```
-$ cd m-wiz
-```
-```
-$ ls
-```
-```
-$ bash m-wiz.sh
-```
+### TESTED ON :
 
-* Now you need internet connection to continue further process...
+* Termux
 
-* You can select any option by clicking on your keyboard
+### REQUIREMENTS :
+* internet 600 MB
+* external storage permission
+* storage 1Gb
+* 1gb ram
 
-* Note:- Don't delete any of the scripts included in core files
+## FEATURES :
+* [+] Install Metasploit !
+* [+] Updated maintainence !
+* [+] Easy for beginners !
+* [+] Repairt metasploit !
 
-# 🛡 ***More***:
+## INSTALLATION [Termux] :
 
-__Metasploit install__ :
+* `apt-get update -y`
+* `apt-get upgrade -y`
+* `pkg install python -y`
+* `pkg install python2 -y`
+* `pkg install git -y`
+* `pip install lolcat`
+* `git clone https://github.com/noob-hackers/m-woz`
+* `cd $HOME`
+* `ls`
+* `cd m-wiz`
+* `ls`
+* `bash m-wiz.sh`
+```
+[+]-- Now you need internet connection to continue further process...
+[+]-- You can select any option by clicking on your keyboard
+[+]-- Note:- Don't delete any of the scripts included in core directory (folder)
+```
+## USAGE OPTIONS [Termux] :
+
+__METAPLOIT INSTALL__ :
 - From this option you can install metasploit-framework in termux application without any issue in just one click and the installation can take time upto 30 minutes.
 
-__In metasploit v1.2__ :
+__IN METASLOIT v1.2__ :
 - The low end device is supported to run metasploit a new version selection option has been added for 4.4 version devices and 6.0 version devices
 
-__Metasploit repair__ :
+__METASPLOIT REPAIR__ :
 - From this option you can repair metasploit-framework if it's not working properly in termux application.
 
-__Metasploit backup__ :
+__METASPLOIT BACKUP__ :
 - From this option you can backup your metasploit-framework into your device internal storage without any issue without losing any data.
 
-__Metasploit restore__ :
+__METASPLOIT RESTORE__ :
 - From this option you can restore your backed up metasploit-framework from your internal storage.
 
-__Metasploit delete__ :
+__METASPLOIT DELETE__ :
 - From this tool you can delete your old metasploit-framework from your termux application easyli.
 
-__Delete script__ :
+__DELETE SCRIPT__ :
 - From this option you can delete m-wiz tool from your termux in one click.
 
-__Update script__ :
+__UPDATE SCRIPT__ :
 - From this option you can update m-wiz tool if updates are available for that.
 
-__About__ :
+__ABOUT__ :
 - From this option you can read about author.
 
-__Reboot__ :
+__REBOOT__ :
 - From this option you can restart script if you are facing issues.
 
-__Exit__ :
-- From this option you can exit from m-wiz tool 
+__EXIT__ :
+- From this option you can exit from m-wiz tool
 
-## 📌 ***Screenshot*** :
-<img src="https://user-images.githubusercontent.com/49580304/60384459-80060f80-9a9b-11e9-807e-ba9f51d2a48f.jpg" width="80%"></img>
-<img src="https://user-images.githubusercontent.com/49580304/60384482-eab74b00-9a9b-11e9-8371-3e7c9a17aae1.jpg" width="80%"></img>
+## SCREEN SHOTS [Termux]
 
-## 📌 ***Full video tutorial***:
-[![m-wiz metasploit-franework tool](https://img.youtube.com/vi/8RXVODXMsa8/0.jpg)](https://youtu.be/8RXVODXMsa8)
-## 🔗 ***Check this***
+<br>
+<p align="center">
+<img width="45%" src="https://user-images.githubusercontent.com/49580304/96562359-8a8e7e80-1275-11eb-8a49-818f8a6b793f.jpg"/>
+<img width="50%" src="https://user-images.githubusercontent.com/49580304/96562367-8c584200-1275-11eb-80e5-11d9013e39a4.jpg"/>
+</p>
 
-### Subscribe our channel on youtube:
-https://rebrand.ly/noobhackers
+## WATCH VIDEO [Termux]
 
-### Chekout our webite:
-https://www.noob-hackers.com
+[![des](https://user-images.githubusercontent.com/49580304/96466915-3c2ea080-11df-11eb-8328-100ca165c12c.jpg)](https://bit.ly/3jLqF1P)
 
-## 👥 ***Join***
+## CONNECT WITH US :
 
-### Facebook group: 
-https://www.facebook.com/groups/1936478173310085
+[![Messenger](https://img.shields.io/badge/Chat-Messenger-blue?style=for-the-badge&logo=messenger)](https://m.me/nakeeb.nitro.35)
+<a href="https://rebrand.ly/githubprof"><img title="Github" src="https://img.shields.io/badge/noob-hackers-brightgreen?style=for-the-badge&logo=github"></a>
+[![Instagram](https://img.shields.io/badge/INSTAGRAM-FOLLOW-red?style=for-the-badge&logo=instagram)](https://rebrand.ly/insgrm)
+[![Instagram](https://img.shields.io/badge/WEBSITE-VISIT-yellow?style=for-the-badge&logo=blogger)](https://rebrand.ly/noobwebs)
+[![Instagram](https://img.shields.io/badge/LINKEDIN-CONNECT-red?style=for-the-badge&logo=linkedin)](https://rebrand.ly/linkedinprof)
+[![Instagram](https://img.shields.io/badge/FACEBOOK-LIKE-red?style=for-the-badge&logo=facebook)](https://rebrand.ly/fsbpage)
+[![Instagram](https://img.shields.io/badge/TELEGRAM-CHANNEL-red?style=for-the-badge&logo=telegram)](https://rebrand.ly/telegramchnl)
+[![Instagram](https://img.shields.io/badge/WHATSAPP-JOINGROUP-red?style=for-the-badge&logo=whatsapp)](https://rebrand.ly/hckrgroups)
+<a href="https://rebrand.ly/noobhackers"><img title="YouTube" src="https://img.shields.io/badge/YouTube-Noob Hackers-red?style=for-the-badge&logo=Youtube"></a>
 
-### Telegram channel:
-https://t.me/noobhack
+## BUY ME A COFFEE :
 
-### Facebook page:
-https://www.facebook.com/Noob-Hackers-250938565573643
+<p align="center">
+<a href="https://rebrand.ly/BuyCoffee"><img title="Noob Hackers" src="https://camo.githubusercontent.com/ae8af018f80649f3d379eb23dbf59acceaffa24e/68747470733a2f2f6c69626572617061792e636f6d2f6173736574732f776964676574732f646f6e6174652e737667"></a>
+</p>
 
-### Instagram: 
-https://www.instagram.com/noobhackers352
-
-### Pinterest:
-https://in.pinterest.com/noobhackers
-
-### My GitHub ID link:
-https://www.github.com/noob-hackers
-
-### 📢 Warning
-
+## WARNING : 
 ***This tool is only for educational purpose. If you use this tool for other purposes except education we will not be responsible in such cases.***
