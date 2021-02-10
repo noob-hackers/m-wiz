@@ -39,7 +39,7 @@ echo " "
 echo " "
 echo " "
 cd $HOME
-if [ -d $HOME/etasploit-framework ]; then
+if [ -d $HOME/metasploit-framework ]; then
 echo -e "$ylo              Metasploit is Alerady installed...!$rset"
 else
 echo " "
