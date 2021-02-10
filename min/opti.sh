@@ -78,7 +78,6 @@ read punch
 fi
 cd $HOME/m-wiz
 bash m-wiz.sh
-10)
 sleep 2.0
 clear
 echo " "
