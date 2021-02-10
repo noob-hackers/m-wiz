@@ -9,8 +9,8 @@ pink='\033[1;35m'
 echo -e "$grn ＞＞＞＞＞＞＞＞＞$ylo [VERSION]$grn ＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜$rset"
 echo " "
 echo " "
-echo -e "$red              ➡$cyan [1️⃣] Metasploit  for  4.4 and 6.0  version"
-echo -e "$red              ➡$cyan [2️⃣] Metasploit  for  7.0 and  above"
+echo -e "$red              ➡$cyan [1] Metasploit  for  4.4 and 6.0  version"
+echo -e "$red              ➡$cyan [2] Metasploit  for  7.0 and  above"
 echo " "
 echo -e "$grn ＞＞＞＞＞＞＞＞＞$ylo [SELECT]$grn ＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜$rset"
 echo " "
@@ -66,8 +66,10 @@ read nitroo
 cd $HOME/m-wiz
 bash m-wiz.sh
 else
-bash metanew.sh                                                                                                                  bash metarpir.sh
-echo " "                                                                                                              echo " "
+bash metanew.sh                                                                                                                  
+bash metarpir.sh
+echo " "                                                                                                              
+echo " "
 echo -e "$grn ＞＞＞＞＞＞＞＞＞＞$ylo [EXIT]$grn ＜＜＜＜＜＜＜＜＜$rset"
 echo " "
 echo -e "$cyan     click$grn ENTER$cyan to go back into m-wiz menu$rset"
@@ -75,7 +77,7 @@ echo " "
 read punch
 fi
 cd $HOME/m-wiz
-bash m-wiz.sh ;;
+bash m-wiz.sh
 10)
 sleep 2.0
 clear
@@ -83,5 +85,4 @@ echo " "
 echo -e "$grn byee guys"
 echo " "
 echo " "
-exit
-esac
+exit 1
