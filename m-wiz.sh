@@ -46,7 +46,7 @@ echo -e "$red                             ➡$cyan [5️] Metasploit delete"
 echo -e "$red                             ➡$cyan [6️] Delete script"
 echo -e "$red                             ➡$cyan [7️] Update script"
 echo -e "$red                             ➡$cyan [8️] About" 
-echo -e "$red                             ➡$cyan [9️] Reboot"
+echo -e "$red                             ➡$cyan [9️] JOIN HACKING GROUP"
 echo -e "$red                             ➡$cyan [10] Exit"
 echo " "
 echo " "
@@ -292,7 +292,7 @@ bash m-wiz.sh ;;
 9)echo " "
 echo " "
 echo " "
-echo -e "$red                          You are going to$grn Reboot$red Script$rset "
+echo -e "$red                          You are going to$grn JOIN GROUP$red Script$rset "
 echo " "
 echo -e "$grn                               Press$ylo ENTER$grn to continue$rset"
 echo " "
@@ -301,13 +301,13 @@ cd $HOME/m-wiz/rbt
 echo " "
 echo -e "$ylo            To terminate the process click$red 't' $ylo or to continue click on$grn ENTER$rset"
 read choice
-if [ $choice = 't' ] ; then
+if [[ $choice = 't' ]] ; then
 echo -e "$red                      Are you sure? Press$grn ENTER$red to exit$rset"
 read nitrooz
 cd $HOME/m-wiz
 bash m-wiz.sh
 else
-bash reboot.sh
+am start -a android.intent.action.VIEW -d https://bit.ly/3osRusJ
 echo " "
 echo " "
 echo -e "$grn ＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞$ylo [EXIT]$grn ＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜$rset"
@@ -330,4 +330,4 @@ echo -e "$grn
 echo " "
 echo " "
 exit
-esac
+esac;
