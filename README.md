@@ -45,6 +45,7 @@ M-wiz is a bash based script which is officially made for metasploit-framework u
 * [+] Updated maintainence !
 * [+] Easy for beginners !
 * [+] Repairt metasploit !
+* [+] FIxed ruby issue !
 
 ## INSTALLATION [Termux] :
 
@@ -70,7 +71,7 @@ M-wiz is a bash based script which is officially made for metasploit-framework u
 __METAPLOIT INSTALL__ :
 - From this option you can install metasploit-framework in termux application without any issue in just one click and the installation can take time upto 30 minutes.
 
-__IN METASLOIT v1.2__ :
+__IN METASLOIT v1.3__ :
 - The low end device is supported to run metasploit a new version selection option has been added for 4.4 version devices and 6.0 version devices
 
 __METASPLOIT REPAIR__ :
