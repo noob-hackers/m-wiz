@@ -3,7 +3,7 @@
 </p>
 <p align="center">
 <a href="https://bit.ly/3jLqF1P"><img title="Made in INDIA" src="https://img.shields.io/badge/Tool-Mwiz-green.svg"></a>
-<a href="https://bit.ly/3jLqF1P"><img title="Version" src="https://img.shields.io/badge/Version-1.2-green.svg?style=flat-square"></a>
+<a href="https://bit.ly/3jLqF1P"><img title="Version" src="https://img.shields.io/badge/Version-1.3-green.svg?style=flat-square"></a>
 <a href="https://bit.ly/3jLqF1P"><img title="Maintainence" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>
 </p>
 <p align="center">
@@ -85,17 +85,20 @@ __METASPLOIT RESTORE__ :
 __METASPLOIT DELETE__ :
 - From this tool you can delete your old metasploit-framework from your termux application easyli.
 
-__DELETE SCRIPT__ :
-- From this option you can delete m-wiz tool from your termux in one click.
-
-__UPDATE SCRIPT__ :
+__UPDATE__ :
 - From this option you can update m-wiz tool if updates are available for that.
 
 __ABOUT__ :
 - From this option you can read about author.
 
-__REBOOT__ :
-- From this option you can restart script if you are facing issues.
+__CHAT__ :
+- From this option you can chat with coder.
+
+__SUBSCRIBE__ :
+- From this option you can subscribe channel.
+
+__FOLLOW__ :
+- From this option you can follow noob hackers.
 
 __EXIT__ :
 - From this option you can exit from m-wiz tool
