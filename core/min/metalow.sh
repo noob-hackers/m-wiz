@@ -45,12 +45,13 @@ sleep 4.0
 echo -e "\e[34mREMOVED METASPLOIT SUCCESSFULLY.....[\e[92m✓\e[34m]\e[0m"
 sleep 4.0
 else
+echo
+fi
 center "INSTALLING REQUIREED PACKAGES"
 echo -e "\e[34mPACKAGES BEING INSTALLED WAIT....\e[0m"
 apt remove -y ruby >/dev/null 2>&1
 apt install -y libiconv zlib autoconf bison clang coreutils curl findutils git apr apr-util libffi libgmp libpcap postgresql readline libsqlite openssl libtool libxml2 libxslt ncurses pkg-config wget make libgrpc termux-tools ncurses-utils ncurses unzip zip tar termux-elf-cleaner > /dev/null 2>&1
 echo -e "\e[34mPACKAGES INSTALLED SUCCESSFULLY....[\e[92m✓\e[34m]\e[0m"
-fi
 echo -e "\033[92m"
 center "INSTALLING  METASPLOIT"
 echo -e "\e[34mINSTALLING METASPLOIT....\e[0m"
