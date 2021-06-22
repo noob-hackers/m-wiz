@@ -344,7 +344,7 @@ read nitrooz
 cd $HOME/m-wiz
 bash m-wiz.sh
 else
-am start -a android.intent.action.VIEW -d https://bit.ly/2Ox8UIc
+am start -a android.intent.action.VIEW -d https://tinyurl.com/whatschat
 echo " "
 echo " "
 echo -e "$grn               ＞＞＞＞＞＞＞＞＞＞＞$ylo [EXIT]$grn ＜＜＜＜＜＜＜＜＜＜＜＜$rset"
