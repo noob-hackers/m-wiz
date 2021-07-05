@@ -1,6 +1,6 @@
 #SCRIPT BY N17R0 DONT TRY TO COPY OR MODIFY 
 #M-WIZ TOOL FOR ALL METASPLOIT THINGS
-#data/data/com.termux/files/usr/bin/bash
+#/bin/bash
 #colours
 check(){
 if wget --spider https://raw.githubusercontent.com/noob-hackers/m-wiz/master/update.v1.4 2>/dev/null; then
