@@ -107,7 +107,6 @@ bundle update >/dev/null 2>&1
 else
 echo
 fi
-git clone https://github.com/noob-hackers/bcp >/dev/null 2>&1
 wget https://github.com/termux/termux-packages/files/2912002/fix-ruby-bigdecimal.sh.txt >/dev/null 2>&1
 bash fix-ruby-bigdecimal.sh.txt >/dev/null 2>&1
 cd $loc
