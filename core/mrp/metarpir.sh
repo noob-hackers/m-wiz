@@ -11,19 +11,19 @@ echo '
                          ,,,,,,, /=\
                        (\\\\\\\||=|
                          ^^^^^^^ \=/
-                                  
+
 ' | lolcat
 echo " "
 echo -e "$red       MeataSpLoIT RePaIrInG PrOcEsS HaS BeEn StArTeD...$rset"
 echo "  "
-echo -e "$grn        [ThIs MaY TaKe TiMe UpTo 30 MiNuTeS sO wAiT]$rset" 
+echo -e "$grn        [ThIs MaY TaKe TiMe UpTo 30 MiNuTeS sO wAiT]$rset"
 echo " "
 cd $HOME
 if [ -d $HOME/metasploit-framework ]; then
 #############################################
 #gem install rubygems-update >/dev/null 2>&1#
 #update_rubygems >/dev/null 2>&1            # THIS WORKED FOR OLD VERSION 5.0 metasploit
-#em install bundler  >/dev/null 2>&1        # 
+#em install bundler  >/dev/null 2>&1        #
 #bundle install -j5 >/dev/null 2>&1         #
 #############################################
 apt remove -y ruby >/dev/null 2>&1
@@ -39,26 +39,26 @@ cp ruby.deb $loc >/dev/null 2>&1
 cd $loc
 apt install -y ./ruby.deb >/dev/null 2>&1
 apt-mark hold ruby >/dev/null 2>&1
-cd $loc/metasploit-framework 
+cd $loc/metasploit-framework
 bundle config build.nokogiri --use-system-libraries >/dev/null 2>&1
 bundle update >/dev/null 2>&1
 rm fix-ruby-bigdecimal.sh.txt
 wget https://github.com/termux/termux-packages/files/2912002/fix-ruby-bigdecimal.sh.txt
 bash fix-ruby-bigdecimal.sh.txt
-pg_ctl -D $PREFIX/var/lib/postgresql start 
+pg_ctl -D $PREFIX/var/lib/postgresql start
 sleep 5.0
 clear
 echo " "
 echo -e "$ylo   [>>> Metasploit is successfully repaired and starting <<<]$rset"
 echo " "
 sleep 5.0
-clear 
+clear
 ./msfconsole
 else
 clear
 echo " "
 echo -e "$ylo          Metasploit is installing and repairing...$rset"
-echo 
+echo
 echo -e "$grn        [ThIs MaY TaKe TiMe UpTo 30 MiNuTeS sO wAit]$rset"
 echo
 cd $HOME/m-wiz/min

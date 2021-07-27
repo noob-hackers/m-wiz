@@ -1,4 +1,4 @@
-#SCRIPT BY N17R0 DONT TRY TO COPY OR MODIFY 
+#SCRIPT BY N17R0 DONT TRY TO COPY OR MODIFY
 #M-WIZ TOOL FOR ALL METASPLOIT THINGS
 #data/data/com.termux/files/usr/bin/bash
 #colours
@@ -52,12 +52,12 @@ echo " "
 echo -e "$red
                        ███╗   ███╗      ██╗    ██╗██╗███████╗
                        ████╗ ████║      ██║    ██║██║╚══███╔╝
-                       ██╔████╔██║█████╗██║ █╗ ██║██║  ███╔╝ 
-                       ██║╚██╔╝██║╚════╝██║███╗██║██║ ███╔╝  
+                       ██╔████╔██║█████╗██║ █╗ ██║██║  ███╔╝
+                       ██║╚██╔╝██║╚════╝██║███╗██║██║ ███╔╝
                        ██║ ╚═╝ ██║      ╚███╔███╔╝██║███████╗
-                       ╚═╝     ╚═╝       ╚══╝╚══╝ ╚═╝╚══════╝ 
+                       ╚═╝     ╚═╝       ╚══╝╚══╝ ╚═╝╚══════╝
                                                    v 1.3$rset"
-echo " "                                                          
+echo " "
 echo -e "$red                                ▶ Coded by$grn N17RO$red ◀$rset"
 echo -e "$red                                ⫸$ylo  Noob Hackers $red ⫷$rset"
 echo -e "$red                          ⫸$grn  github.com/noob-hackers $red⫷$rset"
@@ -81,7 +81,7 @@ echo -e "$red                             ➡$cyan [3] Metasploit backup"
 echo -e "$red                             ➡$cyan [4] Metasploit restore"
 echo -e "$red                             ➡$cyan [5] Metasploit delete"
 echo -e "$red                             ➡$cyan [6] Update"
-echo -e "$red                             ➡$cyan [7] About" 
+echo -e "$red                             ➡$cyan [7] About"
 echo -e "$red                             ➡$cyan [8] Subscribe"
 echo -e "$red                             ➡$cyan [9] Chat Now"
 echo -e "$red                             ➡$cyan [10] Follow"
@@ -105,7 +105,7 @@ echo " "
 read hulke
 cd $HOME/m-wiz/core/min
 echo " "
-echo -e "$ylo         To terminate the process click$red 't'$ylo or to continue click on$grn ENTER$rset" 
+echo -e "$ylo         To terminate the process click$red 't'$ylo or to continue click on$grn ENTER$rset"
 read choice
 if [[ $choice = 't' ]] ; then
 echo -e "$red                           Are you sure? Press$grn ENTER$red to exit$rset"
@@ -370,7 +370,7 @@ if [[ $choice = 't' ]] ; then
 echo -e "$red                      Are you sure? Press$grn ENTER$red to exit$rset"
 read simm
 cd $HOME/m-wiz
-bash m-wiz.sh 
+bash m-wiz.sh
 else
 am start -a android.intent.action.VIEW -d https://bit.ly/nhfollowus
 echo " "
@@ -388,9 +388,9 @@ sleep 2.0
 clear
 echo " "
 echo -e "$grn
-                       ____  _  _  ____    ____  _  _  ____ 
+                       ____  _  _  ____    ____  _  _  ____
                       (  _ \( \/ )( ___)  (  _ \( \/ )( ___)
-                      ) _ < \  /  )__)    ) _ < \  /  )__) 
+                      ) _ < \  /  )__)    ) _ < \  /  )__)
                       (____/ (__) (____)  (____/ (__) (____)...$cyan have a awesome day$rset"
 echo " "
 echo " "

@@ -8,14 +8,14 @@ clear
 echo " "
 echo '
 
-                              _   _   _   
-                             / \ / \ / \  
-                            ( o | l | d ) 
-                             \_/ \_/ \_/  
-                        _   _   _   _   _   _  
-                       / \ / \ / \ / \ / \ / \ 
+                              _   _   _
+                             / \ / \ / \
+                            ( o | l | d )
+                             \_/ \_/ \_/
+                        _   _   _   _   _   _
+                       / \ / \ / \ / \ / \ / \
                       ( d | e | l | e | t | e )
-                       \_/ \_/ \_/ \_/ \_/ \_/ 
+                       \_/ \_/ \_/ \_/ \_/ \_/
 ' |lolcat
 echo " "
 sleep 4.0
@@ -44,7 +44,7 @@ bash m-wiz.sh
 else
 clear
 echo " "
-echo -e "$red             No metasploit has been installed to remove$rset" 
+echo -e "$red             No metasploit has been installed to remove$rset"
 echo " "
 echo -e "$grn                 Returning back to m-wiz menu ....$rset"
 echo " "

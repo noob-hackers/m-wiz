@@ -6,8 +6,8 @@ ylo='\033[1;33m'
 #script coding starts
 clear
 echo "  "
-echo -e '$grn                          
-                        _ _          
+echo -e '$grn
+                        _ _
                        //\/\etasploit $rset'
 echo " "
 echo -e "$red                MeTaSpLoIt Is InStALlInG...$rset"

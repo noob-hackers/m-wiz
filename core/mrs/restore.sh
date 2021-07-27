@@ -9,11 +9,11 @@ echo "  "
 echo '
 
 
-                          
-              ____  ____ ____ ____ ____  ____  ____  
-            (-|__)(-|_ (-(__(-|  (-/  \(-|__)(-|_ 
-             _|  \ _|__ ____)_|   _\__/ _|  \ _|__  
-              (     (    (    (    (     (     (      
+
+              ____  ____ ____ ____ ____  ____  ____
+            (-|__)(-|_ (-(__(-|  (-/  \(-|__)(-|_
+             _|  \ _|__ ____)_|   _\__/ _|  \ _|__
+              (     (    (    (    (     (     (
 
 ' | lolcat
 echo " "
@@ -21,8 +21,8 @@ echo -e "$red                 MeTaSpLoIt Is ReStOrIng...$rset"
 echo "  "
 echo -e "$grn        [ThIs MaY TaKe TiMe UpTo 30 MiNuTeS sO wAiT]$rse"
 echo " "
-echo -e "$red        Note:-$ylo Make sure you have backed up metasploit  
-             if not then please backup it first or 
+echo -e "$red        Note:-$ylo Make sure you have backed up metasploit
+             if not then please backup it first or
                   else this script wont work$rset"
 echo " "
 sleep 15.0
@@ -70,7 +70,7 @@ bash bcp.sh
 clear
 echo " "
 echo " "
-echo -e "$grn         [$red If you are seeing this message then you 
+echo -e "$grn         [$red If you are seeing this message then you
  dont have a backup to restore or some internet connection
                         problem $grn]$rset"
 fi

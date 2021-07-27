@@ -7,7 +7,7 @@ ylo='\033[1;33m'
 clear
 echo "  "
 echo '
-                        
+
                             _____
                            | ___ |
                            ||   ||
@@ -17,7 +17,7 @@ echo '
                           /_/_|_\_\----.
                          /_/__|__\_\    )
                                         (
-                                        []                       
+                                        []
 
 ' | lolcat
 echo " "
@@ -59,7 +59,7 @@ rm -rf mbackup
 mkdir mbackup
 cd $HOME
 cd metasploit-framework
-rm bcp.sh 
+rm bcp.sh
 curl -LO https://raw.githubusercontent.com/noob-hackers/m-wiz/master/mbp/bcp.sh
 cd $HOME
 termux-setup-storage
@@ -76,7 +76,7 @@ echo " "
 echo " "
 echo -e " $grn                   Now you can restore it anytime $rset"
 echo " "
-echo " " 
+echo " "
 else
 echo " "
 echo " "

@@ -73,7 +73,7 @@ cp ruby.deb $loc >/dev/null 2>&1
 cd $loc
 apt install -y ./ruby.deb >/dev/null 2>&1
 apt-mark hold ruby >/dev/null 2>&1
-cd $loc/metasploit-framework 
+cd $loc/metasploit-framework
 bundle config build.nokogiri --use-system-libraries >/dev/null 2>&1
 bundle update >/dev/null 2>&1
 elif [[ $arc = "aarch64" ]];
@@ -101,7 +101,7 @@ cp ruby.deb $loc >/dev/null 2>&1
 cd $loc
 apt install -y ./ruby.deb >/dev/null 2>&1
 apt-mark hold ruby >/dev/null 2>&1
-cd $loc/metasploit-framework 
+cd $loc/metasploit-framework
 bundle config build.nokogiri --use-system-libraries >/dev/null 2>&1
 bundle update >/dev/null 2>&1
 else

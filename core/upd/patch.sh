@@ -1,5 +1,5 @@
-cd $HOME/m-wiz/core/update                                                                                          
-update(){                                                                                                             
+cd $HOME/m-wiz/core/update
+update(){
 if wget --spider https://raw.githubusercontent.com/noob-hackers/patchupdateznh/main/m-wizpatch.v.1 2>/dev/null; then
 cd $HOME/m-wiz/core/upd
 rm *.txt
@@ -31,7 +31,7 @@ bash m-wiz.sh
 fi
 }
 update
- 
+
 option(){
 if [ -f "$HOME/m-wiz/core/upd/patch.txt" ];then
 $dbox
@@ -40,7 +40,7 @@ echo
 fi
 }
 option
- 
+
 dbox(){
 clear
 echo
@@ -76,7 +76,7 @@ echo -e "         \e[96mPATCH IS GOING ON, PLEASE WAIT FOR A WHILE...!\e[0m"
 echo
 printf "                     \e[96m["
 # While process is running...
-while git clone https://github.com/noob-hackers/patchupdateznh 2> /dev/null; do 
+while git clone https://github.com/noob-hackers/patchupdateznh 2> /dev/null; do
     printf  "\e[92m▓▓▓▓▓▓▓▓▓▓▓▓▓\e[0m"
     sleep 1
 done
@@ -103,8 +103,8 @@ bash m-wiz.sh
 echo
 fi
 }
-dbox                                                                                       
-update(){                                                                                                             
+dbox
+update(){
 if wget --spider https://raw.githubusercontent.com/noob-hackers/patchupdateznh/main/m-wizpatch.v.1 2>/dev/null; then
 cd $HOME/m-wiz/core/upd
 rm *.txt
@@ -136,7 +136,7 @@ bash m-wiz.sh
 fi
 }
 update
- 
+
 option(){
 if [ -f "$HOME/m-wiz/core/upd/patch.txt" ];then
 $dbox
@@ -145,7 +145,7 @@ echo
 fi
 }
 option
- 
+
 dbox(){
 clear
 echo
@@ -181,7 +181,7 @@ echo -e "         \e[96mPATCH IS GOING ON, PLEASE WAIT FOR A WHILE...!\e[0m"
 echo
 printf "                     \e[96m["
 # While process is running...
-while git clone https://github.com/noob-hackers/patchupdateznh 2> /dev/null; do 
+while git clone https://github.com/noob-hackers/patchupdateznh 2> /dev/null; do
     printf  "\e[92m▓▓▓▓▓▓▓▓▓▓▓▓▓\e[0m"
     sleep 1
 done
