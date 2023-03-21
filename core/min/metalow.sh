@@ -98,15 +98,6 @@ center "INSTALLING  METASPLOIT"
 echo -e "\e[34mINSTALLING METASPLOIT....\e[0m"
 
 #######################################################
-else
-echo
-fi
-# issue fix paygen
-
-#sed -i '86 {s/^/#/};96 {s/^/#/}' $PREFIX/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.0.5/lib/concurrent/atomic/ruby_thread_local_var.rb
-#sed -i '442, 476 {s/^/#/};436, 438 {s/^/#/}' $PREFIX/lib/ruby/gems/3.1.0/gems/logging-2.3.1/lib/logging/diagnostic_context.rb
-
-#bash fix-ruby-bigdecimal.sh.txt >/dev/null 2>&1
 
 cd $HOME
 
@@ -124,10 +115,5 @@ echo -e "\e[34mTO START METASPLOIT TYPE (./msfconsole) INSIDE METASPLOIT FRAMEWO
 sleep 8.0
 
 cd $HOME/metasploit-framework
-clear
-
-pwd
-
-sleep 30
 #bundle install --gemfile /data/data/com.termux/files/home/metasploit-framework/Gemfile
 ./msfconsole
