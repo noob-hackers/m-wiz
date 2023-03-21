@@ -170,4 +170,5 @@ echo -e "\e[34mTO START METASPLOIT TYPE (./msfconsole) INSIDE METASPLOIT FRAMEWO
 sleep 8.0
 cd $loc/metasploit-framework
 clear
+bundle install --gemfile /data/data/com.termux/files/home/metasploit-framework/Gemfile
 ./msfconsole
