@@ -11,16 +11,15 @@ cod="\033[0m"
 o="\033[91m"
 grn="\033[92m"
 blu="\033[34m"
-msf="6.0.27"
 mob=$(uname -o)
 arc=$(dpkg --print-architecture)
 str=$(du -hs)
 krn=$(uname -s)
 ip=$(curl -s https://api.ipify.org)
-AVL=`df -h /storage/emulated | awk '{ print $4 }' | tail -1`
+#AVL=`df -h /storage/emulated | awk '{ print $4 }' | tail -1`
 echo -e "
  ╭━━━━━━━━━━━━━╮
- ┃━━━━$blu●$grn━══━━━━━┃ $grn$cod STORAGE=$o"$AVL"$grn
+ ┃━━━━$blu●$grn━══━━━━━┃ $grn$cod STORAGE=$o"STRG"$grn
  ┃SUBSCRIBE    ┃ $grn$cod ARCHITECTURE=$o"$arc"$grn
  ┃LIKE         ┃ $grn$cod OS=$o"$mob"$grn
  ┃SHARE        ┃ $grn$cod KERNEL=$o"$krn"$grn
@@ -52,72 +51,118 @@ then
 echo -e "\033[92m"
 center "INSTALLING REQUIREED PACKAGES"
 echo -e "\e[34mPACKAGES BEING INSTALLED WAIT....\e[0m"
-apt remove -y ruby >/dev/null 2>&1
-apt install -y libiconv zlib autoconf bison clang coreutils curl findutils git apr apr-util libffi libgmp libpcap postgresql readline libsqlite openssl libtool libxml2 libxslt ncurses pkg-config wget make libgrpc termux-tools ncurses-utils ncurses unzip zip tar termux-elf-cleaner > /dev/null 2>&1
+###############################
+##### MAIN EXECUTION CODE #####
+###############################
+## Remove non working packages
+rm $PREFIX/etc/apt/sources.list.d/*
+## Purging Ruby
+apt purge ruby -y
+## remove old gems
+rm -fr $PREFIX/lib/ruby/gems
+##
+pkg upgrade -y -o Dpkg::Options::="--force-confnew"
+## upgrade dpkg
+pkg install -y python python3 python2 autoconf bison clang coreutils curl findutils apr apr-util postgresql openssl readline libffi libgmp libpcap libsqlite libgrpc libtool libxml2 libxslt ncurses make ncurses-utils ncurses git wget unzip zip tar termux-tools termux-elf-cleaner pkg-config git ruby -o Dpkg::Options::="--force-confnew"
+#python3 -m pip install --upgrade pip
+#python3 -m pip install requests
+# Home directory
+cd $HOME
+git clone https://github.com/rapid7/metasploit-framework.git --depth=1
+cd $HOME/metasploit-framework
+source <(curl -sL https://github.com/termux/termux-packages/files/2912002/fix-ruby-bigdecimal.sh.txt)
+sed -i "277,\$ s/2.8.0/2.2.0/" Gemfile.lock
+gem install bundler
+declare NOKOGIRI_VERSION=$(cat Gemfile.lock | grep -i nokogiri | sed 's/nokogiri [\(\)]/(/g' | cut -d ' ' -f 5 | grep -oP "(.).[[:digit:]][\w+]?[.].")
+gem install nokogiri -v $NOKOGIRI_VERSION -- --use-system-libraries
+bundle config build.nokogiri "--use-system-libraries --with-xml2-include=$PREFIX/include/libxml2"; bundle install
+gem install actionpack
+bundle update activesupport
+bundle update --bundler
+bundle install -j$(nproc --all)
+if [ -e $PREFIX/bin/msfconsole ];then
+	rm $PREFIX/bin/msfconsole
+fi
+if [ -e $PREFIX/bin/msfvenom ];then
+	rm $PREFIX/bin/msfvenom
+fi
+if [ -e $PREFIX/bin/msfrpcd ];then
+	rm $PREFIX/bin/msfrpcd
+fi
+ln -s $PREFIX/opt/metasploit-framework/msfconsole $PREFIX/bin/
+ln -s $PREFIX/opt/metasploit-framework/msfvenom $PREFIX/bin/
+ln -s $PREFIX/opt/metasploit-framework/msfrpcd $PREFIX/bin/
+termux-elf-cleaner $PREFIX/lib/ruby/gems/*/gems/pg-*/lib/pg_ext.so
+sed -i '86 {s/^/#/};96 {s/^/#/}' $PREFIX/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.0.5/lib/concurrent/atomic/ruby_thread_local_var.rb
+sed -i '442, 476 {s/^/#/};436, 438 {s/^/#/}' $PREFIX/lib/ruby/gems/3.1.0/gems/logging-2.3.1/lib/logging/diagnostic_context.rb
 echo -e "\e[34mPACKAGES INSTALLED SUCCESSFULLY....[\e[92m✓\e[34m]\e[0m"
 echo -e "\033[92m"
 center "INSTALLING  METASPLOIT"
 echo -e "\e[34mINSTALLING METASPLOIT....\e[0m"
 cd $HOME
-ln -sf $PREFIX/include/libxml2/libxml $PREFIX/include/
-loc='/data/data/com.termux/files/home'
-ver='6.0.27'
-cd $loc
-apt-mark unhold ruby >/dev/null 2>&1
-curl -LO https://github.com/rapid7/metasploit-framework/archive/$ver.tar.gz >/dev/null 2>&1
-cd $loc
-tar -xf $ver.tar.gz >/dev/null 2>&1
-mv $loc/metasploit-framework-$ver $loc/metasploit-framework >/dev/null 2>&1
-cd $loc/m-wiz/core/rb/arm
-cp ruby.deb $loc >/dev/null 2>&1
-cd $loc
-apt install -y ./ruby.deb >/dev/null 2>&1
-apt-mark hold ruby >/dev/null 2>&1
-cd $loc/metasploit-framework 
-bundle config build.nokogiri --use-system-libraries >/dev/null 2>&1
-bundle update >/dev/null 2>&1
 elif [[ $arc = "aarch64" ]];
 then
-center "INSTALLING REQUIREED PACKAGES"
-echo -e "\e[34mPACKAGES BEING INSTALLED WAIT....\e[0m"
-apt remove -y ruby >/dev/null 2>&1
-apt install -y libiconv zlib autoconf bison clang coreutils curl findutils git apr apr-util libffi libgmp libpcap postgresql readline libsqlite openssl libtool libxml2 libxslt ncurses pkg-config wget make libgrpc termux-tools ncurses-utils ncurses unzip zip tar termux-elf-cleaner > /dev/null 2>&1
+###############################
+##### MAIN EXECUTION CODE #####
+###############################
+## Remove non working packages
+rm $PREFIX/etc/apt/sources.list.d/*
+## Purging Ruby
+apt purge ruby -y
+## remove old gems
+rm -fr $PREFIX/lib/ruby/gems
+##
+pkg upgrade -y -o Dpkg::Options::="--force-confnew"
+## upgrade dpkg
+pkg install -y python python3 python2 autoconf bison clang coreutils curl findutils apr apr-util postgresql openssl readline libffi libgmp libpcap libsqlite libgrpc libtool libxml2 libxslt ncurses make ncurses-utils ncurses git wget unzip zip tar termux-tools termux-elf-cleaner pkg-config git ruby -o Dpkg::Options::="--force-confnew"
+#python3 -m pip install --upgrade pip
+#python3 -m pip install requests
+# Home directory
+cd $HOME
+git clone https://github.com/rapid7/metasploit-framework.git --depth=1
+cd $HOME/metasploit-framework
+source <(curl -sL https://github.com/termux/termux-packages/files/2912002/fix-ruby-bigdecimal.sh.txt)
+sed -i "277,\$ s/2.8.0/2.2.0/" Gemfile.lock
+gem install bundler
+declare NOKOGIRI_VERSION=$(cat Gemfile.lock | grep -i nokogiri | sed 's/nokogiri [\(\)]/(/g' | cut -d ' ' -f 5 | grep -oP "(.).[[:digit:]][\w+]?[.].")
+gem install nokogiri -v $NOKOGIRI_VERSION -- --use-system-libraries
+bundle config build.nokogiri "--use-system-libraries --with-xml2-include=$PREFIX/include/libxml2"; bundle install
+gem install actionpack
+bundle update activesupport
+bundle update --bundler
+bundle install -j$(nproc --all)
+if [ -e $PREFIX/bin/msfconsole ];then
+	rm $PREFIX/bin/msfconsole
+fi
+if [ -e $PREFIX/bin/msfvenom ];then
+	rm $PREFIX/bin/msfvenom
+fi
+if [ -e $PREFIX/bin/msfrpcd ];then
+	rm $PREFIX/bin/msfrpcd
+fi
+ln -s $PREFIX/opt/metasploit-framework/msfconsole $PREFIX/bin/
+ln -s $PREFIX/opt/metasploit-framework/msfvenom $PREFIX/bin/
+ln -s $PREFIX/opt/metasploit-framework/msfrpcd $PREFIX/bin/
+termux-elf-cleaner $PREFIX/lib/ruby/gems/*/gems/pg-*/lib/pg_ext.so
+sed -i '86 {s/^/#/};96 {s/^/#/}' $PREFIX/lib/ruby/gems/3.1.0/gems/concurrent-ruby-1.0.5/lib/concurrent/atomic/ruby_thread_local_var.rb
+sed -i '442, 476 {s/^/#/};436, 438 {s/^/#/}' $PREFIX/lib/ruby/gems/3.1.0/gems/logging-2.3.1/lib/logging/diagnostic_context.rb
 echo -e "\e[34mPACKAGES INSTALLED SUCCESSFULLY....[\e[92m✓\e[34m]\e[0m"
 echo -e "\033[92m"
 center "INSTALLING  METASPLOIT"
 echo -e "\e[34mINSTALLING METASPLOIT....\e[0m"
 cd $HOME
-ln -sf $PREFIX/include/libxml2/libxml $PREFIX/include/
-loc='/data/data/com.termux/files/home'
-ver='6.0.27'
-cd $loc
-apt-mark unhold ruby >/dev/null 2>&1
-curl -LO https://github.com/rapid7/metasploit-framework/archive/$ver.tar.gz >/dev/null 2>&1
-cd $loc
-tar -xf $ver.tar.gz >/dev/null 2>&1
-mv $loc/metasploit-framework-$ver $loc/metasploit-framework >/dev/null 2>&1
-cd $loc/m-wiz/core/rb/aarch64
-cp ruby.deb $loc >/dev/null 2>&1
-cd $loc
-apt install -y ./ruby.deb >/dev/null 2>&1
-apt-mark hold ruby >/dev/null 2>&1
-cd $loc/metasploit-framework 
-bundle config build.nokogiri --use-system-libraries >/dev/null 2>&1
-bundle update >/dev/null 2>&1
+#######################################################
 else
 echo
 fi
-wget https://github.com/termux/termux-packages/files/2912002/fix-ruby-bigdecimal.sh.txt >/dev/null 2>&1
+cd $HOME/metasploit-framework
 bash fix-ruby-bigdecimal.sh.txt >/dev/null 2>&1
-cd $loc
+cd $HOME
 mkdir -p $PREFIX/var/lib/postgresql >/dev/null 2>&1
 initdb $PREFIX/var/lib/postgresql  >/dev/null 2>&1
 echo -e "\e[34mMETASPLOIT \e[92m$ver\e[34m INSTALLED SUCCESSFULLY....[\e[92m✓\e[34m]\e[92m"
 center "COMPLETING ALL PROCESS"
-cd $loc
 echo -e "\e[34mCOMPLETING WAIT.....\e[0m"
-rm $ver.tar.gz >/dev/null 2>&1
-rm ruby.deb >/dev/null 2>&1
 echo -e "\e[34mCOMPLETED SUCCESSFULLY....[\e[92m✓\e[34m]\e[92m"
 center "STARTING METASPLOIT"
 echo -e "\e[34mBOOTING UP WAIT.....\e[0m"
@@ -125,4 +170,5 @@ echo -e "\e[34mTO START METASPLOIT TYPE (./msfconsole) INSIDE METASPLOIT FRAMEWO
 sleep 8.0
 cd $loc/metasploit-framework
 clear
+bundle install --gemfile /data/data/com.termux/files/home/metasploit-framework/Gemfile
 ./msfconsole
