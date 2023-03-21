@@ -47,101 +47,16 @@ sleep 4.0
 else
 echo
 fi
-if [[ $arc = "arm" ]];
-then
-echo -e "\033[92m"
-center "INSTALLING REQUIREED PACKAGES"
-echo -e "\e[34mPACKAGES BEING INSTALLED WAIT....\e[0m"
-###############################
-##### MAIN EXECUTION CODE #####
-###############################
 
-cd $HOME
-
-pkg install -y python python3 python2 autoconf bison clang coreutils curl findutils apr apr-util postgresql openssl readline libffi libgmp libpcap libsqlite libgrpc libtool libxml2 libxslt ncurses make ncurses-utils ncurses git wget unzip zip tar termux-tools termux-elf-cleaner pkg-config git ruby -o Dpkg::Options::="--force-confnew"
+pkg install -y binutils python autoconf bison clang coreutils curl findutils apr apr-util postgresql openssl readline libffi libgmp libpcap libsqlite libgrpc libtool libxml2 libxslt ncurses make ncurses-utils ncurses git wget unzip zip tar termux-tools termux-elf-cleaner pkg-config git ruby -o Dpkg::Options::="--force-confnew"
 
 python3 -m pip install --upgrade pip
 
 python3 -m pip install requests
-# Home directory
 
 cd $HOME
-
-sleep 10
 
 git clone https://github.com/rapid7/metasploit-framework.git --depth=1
-
-sleep 10
-
-cd $HOME/metasploit-framework
-
-source <(curl -sL https://github.com/termux/termux-packages/files/2912002/fix-ruby-bigdecimal.sh.txt)
-
-cd $HOME/metasploit-framework
-
-gem install bundler
-
-cd $HOME/metasploit-framework
-
-declare NOKOGIRI_VERSION=$(cat Gemfile.lock | grep -i nokogiri | sed 's/nokogiri [\(\)]/(/g' | cut -d ' ' -f 5 | grep -oP "(.).[[:digit:]][\w+]?[.].")
-
-cd $HOME/metasploit-framework
-
-gem install nokogiri -v $NOKOGIRI_VERSION -- --use-system-libraries
-
-cd $HOME/metasploit-framework
-
-bundle config build.nokogiri "--use-system-libraries --with-xml2-include=$PREFIX/include/libxml2"; bundle install
-
-cd $HOME/metasploit-framework
-
-gem install actionpack
-
-cd $HOME/metasploit-framework
-
-bundle update activesupport
-
-cd $HOME/metasploit-framework
-
-bundle update --bundler
-
-cd $HOME/metasploit-framework
-
-bundle install -j$(nproc --all)
-
-cd $HOME/metasploit-framework
-
-echo -e "\e[34mPACKAGES INSTALLED SUCCESSFULLY....[\e[92m✓\e[34m]\e[0m"
-echo -e "\033[92m"
-center "INSTALLING  METASPLOIT"
-echo -e "\e[34mINSTALLING METASPLOIT....\e[0m"
-
-elif [[ $arc = "aarch64" ]];
-then
-###############################
-##### MAIN EXECUTION CODE #####
-###############################
-
-cd $HOME
-
-pkg install -y python python3 python2 autoconf bison clang coreutils curl findutils apr apr-util postgresql openssl readline libffi libgmp libpcap libsqlite libgrpc libtool libxml2 libxslt ncurses make ncurses-utils ncurses git wget unzip zip tar termux-tools termux-elf-cleaner pkg-config git ruby -o Dpkg::Options::="--force-confnew"
-
-python3 -m pip install --upgrade pip
-
-python3 -m pip install requests
-# Home directory
-
-cd $HOME
-
-sleep 10
-
-git clone https://github.com/rapid7/metasploit-framework.git --depth=1
-
-sleep 10
-
-cd $HOME/metasploit-framework
-
-source <(curl -sL https://github.com/termux/termux-packages/files/2912002/fix-ruby-bigdecimal.sh.txt)
 
 cd $HOME/metasploit-framework
 
@@ -210,8 +125,6 @@ sleep 8.0
 
 cd $HOME/metasploit-framework
 clear
-
-sleep 30
 
 pwd
 
