@@ -92,6 +92,26 @@ bundle install -j$(nproc --all)
 
 cd $HOME/metasploit-framework
 
+###################################################
+sleep 10
+gem install bundler
+sleep 10
+declare NOKOGIRI_VERSION=$(cat Gemfile.lock | grep -i nokogiri | sed 's/nokogiri [\(\)]/(/g' | cut -d ' ' -f 5 | grep -oP "(.).[[:digit:]][\w+]?[.].")
+sleep 10
+gem install nokogiri -v $NOKOGIRI_VERSION -- --use-system-libraries
+sleep 10
+bundle config build.nokogiri "--use-system-libraries --with-xml2-include=$PREFIX/include/libxml2"; bundle install
+sleep 10
+gem install actionpack
+sleep 10
+bundle update activesupport
+sleep 10
+bundle update --bundler
+sleep 10
+bundle install -j$(nproc --all)
+sleep 10
+###################################################
+
 echo -e "\e[34mPACKAGES INSTALLED SUCCESSFULLY....[\e[92m✓\e[34m]\e[0m"
 echo -e "\033[92m"
 center "INSTALLING  METASPLOIT"
