@@ -316,7 +316,7 @@ read simm
 cd $HOME/m-wiz
 bash m-wiz.sh
 else
-am start -a android.intent.action.VIEW -d https://bitly.com/nhytchannel
+am start -a android.intent.action.VIEW -d https://bit.ly/nbhytchannel
 echo " "
 echo " "
 echo -e "$grn               ＞＞＞＞＞＞＞＞＞＞＞$ylo [EXIT]$grn ＜＜＜＜＜＜＜＜＜＜＜＜$rset"
